@@ -1,4 +1,33 @@
 {
 	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
-	"version": 3
+	"version": 3,
+	"settings" :{
+"appearanceTools": true,
+"useRootPaddingAwareAlignments": true,
+"color": {
+	"defaultPalette": false,
+	"palette": [
+		{"name":"Hero background",
+		"slug":"hero background",
+		"color":"#0d2b2e"},
+		{"name":"Mid Tone",
+		"slug":"mid tone",
+		"color":"#1a5c5e"},
+		{"name":"Accent",
+		"slug":"accent",
+		"color":"#2a7a7c"},
+		{"name":"CTA",
+		"slug":"cta",
+		"color":"#4ecdc4"},
+		{"name":"Body Text",
+		"slug":"body text",
+		"color":"#8fb3bf"},
+		{"name":"Headlines",
+		"slug":"headlines",
+		"color":"#e8f8f7"}
+
+	]
 }
+	}
+
+	}
