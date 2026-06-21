@@ -15,5 +15,5 @@ jobs:
                   server: ${{ secrets.SFTP_HOST }}
                   username: ${{ secrets.SFTP_USER }}
                   password: ${{ secrets.SFTP_PASSWORD }}
-                  server-dir: ${{ secrets.SFTP_PATH }}
+                  server-dir: ${{ secrets.SFTP_PATH }}/
                   protocol: ftps
