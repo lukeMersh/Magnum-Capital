@@ -27,7 +27,70 @@
 		"color":"#e8f8f7"}
 
 	]
+	},
+	"typography": {
+		"customFontSize": false,
+		"defaultFontSizes": false,
+		"fontSizes": [
+			{
+				"name": "H2",
+				"slug": "h2",
+				"size": "2.5rem"
+			},
+			{
+				"name": "H3",
+				"slug": "h3",
+				"size": "1.125rem"
+			}
+			
+		],
+		"customFontFamilies": false,
+		"defaultFontFamilies": false,
+		"fontFamilies": [
+			{
+				"name": "Source Serif Pro",
+				"slug": "source-serif-pro",
+				"fontFamily": "Source Serif Pro, serif"
+			},
+			{
+				"name": "Source Sans Pro",
+				"slug": "source-sans-pro",
+				"fontFamily": "Source Sans Pro, sans-serif"
+			}
+		],
+		"fontFace": [
+			{
+				"fontFamily": "Source Serif Pro",
+				"src": [
+					{
+						"fontStyle": "normal",
+						"fontWeight": "400",
+						"src": "url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap')"
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": "700",
+						"src": "url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap')"
+					}
+				]
+			},
+			{
+				"fontFamily": "Source Sans Pro",
+				"src": [
+					{
+						"fontStyle": "normal",
+						"fontWeight": "400",
+						"src": "url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap')"
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": "700",
+						"src": "url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap')"
+					}
+				]
+			}
+		]
+	}
 }
-	}
+}
 
-	}
