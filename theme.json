@@ -36,11 +36,13 @@
 				"name": "H2",
 				"slug": "h2",
 				"size": "2.5rem"
+				
 			},
 			{
 				"name": "H3",
 				"slug": "h3",
 				"size": "1.125rem"
+				
 			}
 			
 		],
