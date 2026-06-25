@@ -9,11 +9,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v6
-            - name: Deploy via SFTP
-              uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+
+            - name: 📂 Sync Files
+              uses: SamKirkland/web-deploy@v1
               with:
-                  server: ${{ secrets.SFTP_HOST }}
-                  username: ${{ secrets.SFTP_USER }}
-                  password: ${{ secrets.SFTP_PASSWORD }}
-                  server-dir: ${{ secrets.SFTP_PATH }}/
-                  protocol: ftps
+                source-path: ./
+                target-server: staging.magnumcapital.co.uk
+                remote-user: id_rsa@staging.magnumcapital.co.uk
+                private-ssh-key: ${{ secrets.SSH_KEY }}
+                destination-path: ~/home/lukemers/staging.magnumcapital.co.uk/id_rsa
