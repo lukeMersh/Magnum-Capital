@@ -64,17 +64,13 @@
 			{
 				"fontFamily": "Source Serif Pro",
 				"src": [
-					{
-						"fontStyle": "normal",
-						"fontWeight": "400",
-						"src": "url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap')",
-						"fontDisplay": "swap"
-					},
+					
 					{
 						"fontStyle": "normal",
 						"fontWeight": "700",
 						"src": "url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap')",
-						"fontDisplay": "swap"
+						"fontDisplay": "swap",
+						"lineHeight": "1.93"
 					}
 				]
 			},
