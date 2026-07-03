@@ -16,4 +16,4 @@ jobs:
         password: ${{ secrets.SFTP_PASSWORD }}
         server-dir: ${{ secrets.SFTP_SERVER_DIR }}/
         protocol: ftps
-        port: 722 # todo replace with your web hosts sftp port
+        port: 21 # todo replace with your web hosts sftp port
