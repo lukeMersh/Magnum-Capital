@@ -11,9 +11,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.4.0
       with:
-        server: ftp.lukemersh.co.uk
-        username: id_rsa@staging.magnumcapital.co.uk
+        server: ${{ secrets.SFTP_HOST }}
+        username: ${{ secrets.SFTP_USERNAME }}
         password: ${{ secrets.SFTP_PASSWORD }}
-        server-dir: ./
+        server-dir: ${{ secrets.SFTP_PATH }}/
         protocol: ftps
         port: 21
