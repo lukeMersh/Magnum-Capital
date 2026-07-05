@@ -2,6 +2,10 @@
 	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
 	"version": 3,
 	"settings" :{
+		"layout": {
+			"contentSize": "800",
+			"wideSize": "1200"
+		},
 "typography": {
 	"fontSize": true,
 	"lineHeight": true,
@@ -31,7 +35,10 @@
 					"fontStyle": "normal",
 					"src": [
 						"file:assets/fonts/SourceSerifPro-Bold.ttf"
+				
 					]
+				}
+			]
 				},
 				{
 					"name": "Source serif Pro",
@@ -47,8 +54,9 @@
 					]
 				}
 			]
-		],
+				
 		}
 	]
 }
+	}
 }
