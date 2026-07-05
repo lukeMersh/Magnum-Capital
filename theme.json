@@ -2,97 +2,53 @@
 	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
 	"version": 3,
 	"settings" :{
-"appearanceTools": true,
-"useRootPaddingAwareAlignments": true,
-"color": {
-	"defaultPalette": false,
-	"palette": [
-		{"name":"Hero background",
-		"slug":"hero background",
-		"color":"#0d2b2e"},
-		{"name":"Mid Tone",
-		"slug":"mid tone",
-		"color":"#1a5c5e"},
-		{"name":"Accent",
-		"slug":"accent",
-		"color":"#2a7a7c"},
-		{"name":"CTA",
-		"slug":"cta",
-		"color":"#4ecdc4"},
-		{"name":"Body Text",
-		"slug":"body text",
-		"color":"#8fb3bf"},
-		{"name":"Headlines",
-		"slug":"headlines",
-		"color":"#e8f8f7"}
-
+"typography": {
+	"fontSize": true,
+	"lineHeight": true,
+	"fontWeight": true,
+	"fontSizes": [
+		{
+			"name": "H2",
+			"slug": "h2",
+			"size": "1.56rem"
+		},
+		{
+			"name": "H3",
+			"slug": "h3",
+			"size": "1.125rem"
+		}
+		
+	],
+	"fontFamilies": [
+		{
+			"name": "Source serif Pro",
+			"slug": "source-serif-pro",
+			"fontFamily": "Source Serif Pro",
+			"fontFace": [
+				{
+					"fontFamily": "Source serif Pro",
+					"fontWeight": "700",
+					"fontStyle": "normal",
+					"src": [
+						"file:assets/fonts/SourceSerifPro-Bold.ttf"
+					]
+				},
+				{
+					"name": "Source serif Pro",
+					"slug": "source-serif-pro",
+					"fontFamily": "Source Serif Pro",
+					"fontFace": [
+						{
+							"fontFamily": "Source serif Pro",
+					"fontWeight": "700",
+					"fontStyle": "normal",
+					"src": [
+						"file:assets/fonts/SourceSerifPro-Bold.ttf"
+					]
+				}
+			]
+		],
+		}
 	]
-	},
-	"typography": {
-		"customFontSize": false,
-		"defaultFontSizes": false,
-		"fontSizes": [
-			{
-				"name": "H2",
-				"slug": "h2",
-				"size": "2.5rem"
-				
-			},
-			{
-				"name": "H3",
-				"slug": "h3",
-				"size": "1.125rem"
-				
-			}
-			
-		],
-		"customFontFamilies": false,
-		"defaultFontFamilies": false,
-		"fontFamilies": [
-			{
-				"name": "Source Serif Pro",
-				"slug": "source-serif-pro",
-				"fontFamily": "Source Serif Pro, serif"
-			},
-			{
-				"name": "Source Sans Pro",
-				"slug": "source-sans-pro",
-				"fontFamily": "Source Sans Pro, sans-serif"
-			}
-		],
-		"fontFace": [
-			{
-				"fontFamily": "Source Serif Pro",
-				"src": [
-					
-					{
-						"fontStyle": "normal",
-						"fontWeight": "700",
-						"src": "url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap')",
-						"fontDisplay": "swap",
-						"lineHeight": "1.93"
-					}
-				]
-			},
-			{
-				"fontFamily": "Source Sans Pro",
-				"src": [
-					{
-						"fontStyle": "normal",
-						"fontWeight": "400",
-						"src": "url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap')",
-						"fontDisplay": "swap"
-					},
-					{
-						"fontStyle": "normal",
-						"fontWeight": "700",
-						"src": "url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap')",
-						"fontDisplay": "swap"
-					}
-				]
-			}
-		]
-	}
 }
 }
-
